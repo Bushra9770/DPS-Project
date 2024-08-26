@@ -1,0 +1,41 @@
+.beyond-classroom{
+    background-color: #004d1a;
+    padding: 0;
+}
+.beyond-section {
+    text-align: center;
+    padding: 4% 12% 4% 12%;
+    color: #ffffff;
+    font-family: 'Kameron';
+}
+.beyond-image{
+    max-width: 100%;
+    padding-bottom: 20px;
+    margin-top: -8px;
+
+}
+.beyond-container {
+    display: flex;
+    text-align: left;
+}
+.beyond {
+    flex: 1;
+    margin: 10px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    color: #1a1e21;
+}
+.textPadding{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .beyond-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beyond {
+        max-width: 100%;
+    }
+}

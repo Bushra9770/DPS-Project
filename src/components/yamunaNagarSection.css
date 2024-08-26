@@ -1,0 +1,82 @@
+.font-38 {
+    font-size: 38px;
+}
+
+.yamuna-section {
+    padding: 4% 0 6%;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
+}
+
+.about-yamuna {
+    padding-left: 12%;
+    padding-right: 2.5%;
+}
+
+
+
+.yamuna-section .image-section .image-wrapper {
+    position: relative;
+    max-width: 100%;
+}
+
+.yamuna-section .image-section .yellow-box {
+    width: 50%;
+    height: 273px;
+    left: 0;
+    border-radius: 35px;
+    background-color: #FFBB04;
+
+
+}
+
+.yamuna-section .image-section .green-box {
+    width: 70%;
+    height: 360px;
+    background-color: #014828;
+    border-radius: 35px;
+    top: 22%;
+    bottom: 17%;
+
+}
+
+P {
+    margin: 0;
+}
+
+.yamuna-section .image-wrapper {
+    margin-left: 7.5%;
+    top: 9%;
+}
+
+.image-section img {
+    width: 80%;
+
+}
+
+
+@media (max-width: 768px) {
+    .yamuna-section {
+        flex-direction: column;
+
+    }
+
+    .image-section {
+        display: none !important;
+    }
+
+    .yamuna-section .text-section {
+        order: 2;
+        padding: 0px 20px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1200px) {
+
+    .image-section img {
+        display: none;
+
+    }
+
+}

@@ -1,0 +1,237 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+
+.school-main-section {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 10px;
+}
+.school-main-body {
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    padding: 4% 12% 4% 12%;
+    flex-direction: column;
+}
+
+.school-content-left {
+    flex: 1;
+    width: 80%;
+    background-color: rgba(255, 187, 4, 0.2);
+    ;
+}
+
+.school-content-left img{
+    background-color: none;
+}
+
+.school-content-right {
+    max-width: 20%;
+    width: fit-content;
+}
+.school-images-landscape{
+    height: 200Px;
+    width: 500px;
+    border-radius: 10px;
+}
+.school-images-portrait{
+    height: 200Px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.school-portrait-images{
+    height: 410Px;
+    width: 200px;
+}
+.school-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 16px;
+}
+.school-text{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.school-content-left h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.school-video-card {
+    background-image: url('https://via.placeholder.com/500x300');
+    background-size:contain;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.school-video-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.school-video-overlay h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.school-video-overlay p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.school-play-button {
+    background-color: #fff;
+    color: #333;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.school-content-right h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.school-events-grid {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+.school-events-grid-bottom {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.school-event-card {
+    background-color: #ffffff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+    height: 110px;
+    width: 300px;
+    text-align: center;
+
+}
+.school-last-card{
+    padding-top: 10Px;
+    padding-left: 20px ;
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    text-align: left;
+}
+
+.school-event-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.school-event-card h3 {
+    font-size: 1.2em;
+    color: #333;
+    font-family: 'Georgia', serif;
+}
+
+.school-event-card p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1;
+}
+
+.school{
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.header-image {
+    /* Adjust size as needed */
+    height: 37px;
+    width: 150px;
+}
+.school-content-left {
+    flex: 0;
+    position: relative;
+    text-align: center;
+}
+.school-text-container {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+}
+.school-text-container-arrow {
+    position: absolute;
+    left: 85%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+}
+.school-text-container p{
+    font-size: 1em;
+    color: #666;
+    line-height: 1;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .school-main-section {
+        flex-direction: column;
+    }
+
+    .school-events-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+
+}

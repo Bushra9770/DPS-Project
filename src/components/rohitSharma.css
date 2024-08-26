@@ -1,0 +1,45 @@
+.rohit-classroom{
+    background-color: #FFBB04;
+    padding: 0;
+}
+.rohit-section {
+    text-align: center;
+    padding: 4% 2% 4% 2%;
+}
+.rohit-image{
+    max-width: 100%;
+
+}
+.rohit-image-bottom{
+    max-height: 90%;
+   float: right;
+
+}
+
+.rohit-container {
+    display: flex;
+    text-align: center;
+}
+.rohit {
+    flex: 1;
+    width: 80%;
+    color: #1a1e21;
+}
+
+.rohit-text p{
+    text-align: left;
+    flex: 1;
+    width: 100%;
+    padding-left: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .rohit-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rohit {
+        max-width: 100%;
+    }
+}
