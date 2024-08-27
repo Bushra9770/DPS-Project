@@ -49,7 +49,7 @@ const HeroSection = () => {
     <div className="hero-section text-center text-white ">
       <div className="container-fluid d-flex row">
       <img src="./Images/logo 1.png" className="hero-logo" alt=''/>
-        <img src="/images/Group 26.png" alt="Hero" className="img-fluid" />
+        <img src="./Images/Group 26.png" alt="Hero" className="img-fluid" />
         <h1 className=' hero-text justify-content-center align-items-center'>Bringing <br />Excellence to Students</h1>
         <div className="row bg-green green-container">
           <div className="col-md-3 col-6">
