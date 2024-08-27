@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -29,15 +28,15 @@ body {
     flex: 0;
 }
 .images{
-    height: 530Px;
-    width: 500px;
+    /* height: 530Px; */
+    /* width: 500px; */
 }
 
-.content-left h2 {
+/* .content-left h2 {
     font-size: 2em;
     margin-bottom: 20px;
     font-family: 'Georgia', serif;
-}
+} */
 
 .video-card {
     background-image: url('https://via.placeholder.com/500x300');
@@ -45,7 +44,7 @@ body {
     background-position: center;
     position: relative;
     border-radius: 10px;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,14 +97,16 @@ body {
     border-radius: 10px;
 }
 .last-card{
-    padding-top: 40Px;
-    padding-left: 20px ;
+    padding: 5% 3%;
     display: flex;
     background-color: #ffffff;
     flex-direction: column;
     text-align: left;
 }
 
+h4{
+    font-weight: 600;
+}
 .event-card img {
     width: 100%;
     border-top-left-radius: 10px;
@@ -128,6 +129,7 @@ body {
 @media screen and (max-width: 768px) {
     .main-section {
         flex-direction: column;
+        padding: 20px;
     }
 
     .events-grid {

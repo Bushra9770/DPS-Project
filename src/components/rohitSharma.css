@@ -1,4 +1,4 @@
-.rohit-classroom{
+/* .rohit-classroom{
     background-color: #FFBB04;
     padding: 0;
 }
@@ -41,5 +41,43 @@
 
     .rohit {
         max-width: 100%;
+    }
+} */
+
+.rohit-classroom {
+    background-color: #f7ce46;
+    /* padding: 30px 0; */
+    max-width: 100%;
+}
+
+.rohit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rohit-image, .rohit-image-bottom {
+    border-radius: 10px;
+    max-width: 100%;
+    height: 50vh;
+}
+
+.rohit-text p {
+    /* font-size: 1rem; */
+    color: #333;
+    /* line-height: 1.6; */
+    text-align: left;
+    margin-left: 8%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .rohit-text {
+        margin-top: 20px;
+    }
+
+    .rohit-container {
+        flex-direction: column;
+        gap: 20px;
     }
 }

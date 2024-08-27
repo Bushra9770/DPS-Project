@@ -1,5 +1,5 @@
-.font-38 {
-    font-size: 38px;
+.font-32 {
+    font-size: 32px;
 }
 
 .yamuna-section {
@@ -68,7 +68,7 @@ P {
 
     .yamuna-section .text-section {
         order: 2;
-        padding: 0px 20px;
+        padding: 20px;
     }
 }
 

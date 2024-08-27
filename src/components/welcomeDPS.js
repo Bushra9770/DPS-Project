@@ -19,7 +19,7 @@ const WelcomeDPS = () => {
                     schools in Yamuna Nagar, providing unique all-round education to our
                     wards.
                 </p>
-                <p  className="pb-3">
+                <p>
                     The school inculcates innovation and creativity in the students
                     through holistic learning in state-of-the-art classrooms and labs. The
                     sports academy is equipped with world-class infrastructure for

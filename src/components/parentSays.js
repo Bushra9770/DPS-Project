@@ -9,7 +9,7 @@ const parentSays = () => {
                 <div className="testimonial">
                     <div className="testimonial-image">
                         <img src="./Images/left-quote 2.png" alt="Jasmeen Bhatia" className="left-quote"/>
-                        <img src="./Images/Group 34.png" alt="Shilpa Kumar" />
+                        <img src="./Images/Group 34.png" alt="Shilpa Kumar" className='image-alignment' />
                     </div>
                     <h3>Shilpa Kumar</h3>
                     <p>
@@ -23,7 +23,7 @@ const parentSays = () => {
                 <div className="testimonial">
                     <div className="testimonial-image">
                         <img src="./Images/left-quote 2.png" alt="Jasmeen Bhatia" className="left-quote"/>
-                        <img src="./Images/Group 35.png" alt="Jasmeen Bhatia"/>
+                        <img src="./Images/Group 35.png" alt="Jasmeen Bhatia" className='image-alignment'/>
                     </div>
                     <h3>Jasmeen Bhatia</h3>
                     <p>

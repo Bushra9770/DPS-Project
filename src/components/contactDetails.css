@@ -32,11 +32,10 @@ footer {
 .footer-section ul {
     list-style: none;
     padding: 0;
+    text-align: left;
 }
 
-.footer-section ul li {
-    margin-bottom: 5px;
-}
+
 
 .footer-section ul li a {
     color: #fff;
@@ -66,9 +65,10 @@ footer {
 .footer-bottom {
     background-color: #ffc107; /* Yellow background */
     color: #004d1a; /* Dark green text */
-    text-align: center;
     padding: 10px 0;
     font-size: 14px;
+    display: flex;
+    justify-content: center;
 }
 .social-icons {
     margin-top: 20px;
@@ -91,8 +91,8 @@ footer {
 }
 
 .social-icons a:hover {
-    background-color: #ffc107; /* Yellow background on hover */
-    color: #004d1a; /* Dark green text on hover */
+    background-color: #ffc107; 
+    color: #004d1a; 
 }
 .custom-bullet-list {
     list-style: none; /* Remove default bullets */
@@ -105,15 +105,19 @@ footer {
     margin-right: 10px; /* Space between bullet and text */
 }
 
+.extra-padding{
+    padding-right: 4%;
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
+        padding: 20px;
+        gap: 20px;
     }
 
-    .footer-section {
-        margin-bottom: 20px;
-        text-align: center;
-    }
+     .footer-bottom{
+        padding: 20px;
+     }
 }

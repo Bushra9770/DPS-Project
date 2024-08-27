@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -43,18 +42,18 @@ body {
 }
 .school-images-landscape{
     height: 200Px;
-    width: 500px;
+    width: 550px;
     border-radius: 10px;
 }
 .school-images-portrait{
     height: 200Px;
-    width: 300px;
+    width: 350px;
     border-radius: 10px;
 }
 
 .school-portrait-images{
     height: 410Px;
-    width: 200px;
+    width: 250px;
 }
 .school-container {
     position: absolute;
@@ -98,19 +97,19 @@ body {
 }
 
 .school-video-overlay h3 {
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     margin-bottom: 10px;
 }
 
 .school-video-overlay p {
-    font-size: 1em;
+    /* font-size: 1em; */
     margin-bottom: 20px;
 }
 
 .school-play-button {
     background-color: #fff;
     color: #333;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     padding: 10px 20px;
     border-radius: 50%;
     cursor: pointer;
@@ -118,9 +117,9 @@ body {
 }
 
 .school-content-right h2 {
-    font-size: 2em;
+    /* font-size: 2em;
     margin-bottom: 20px;
-    font-family: 'Georgia', serif;
+    font-family: 'Georgia', serif; */
 }
 
 .school-events-grid {
@@ -165,15 +164,15 @@ body {
 }
 
 .school-event-card h3 {
-    font-size: 1.2em;
+    /* font-size: 1.2em;
     color: #333;
-    font-family: 'Georgia', serif;
+    font-family: 'Georgia', serif; */
 }
 
 .school-event-card p {
-    font-size: 1em;
+    /* font-size: 1em;
     color: #666;
-    line-height: 1;
+    line-height: 1; */
 }
 
 .school{
@@ -187,7 +186,7 @@ body {
 }
 
 .header-title {
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     color: #333;
 }
 
@@ -216,9 +215,9 @@ body {
     margin: 10px;
 }
 .school-text-container p{
-    font-size: 1em;
+    /* font-size: 1em;
     color: #666;
-    line-height: 1;
+    line-height: 1; */
 }
 
 /* Responsive Design */
@@ -229,6 +228,11 @@ body {
 
     .school-events-grid {
         grid-template-columns: 1fr;
+    }
+
+    .coloum-images{
+        display: flex;
+        flex-direction: column !important;
     }
 }
 

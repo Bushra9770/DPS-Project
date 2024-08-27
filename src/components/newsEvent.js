@@ -4,7 +4,7 @@ import './newsEvent.css'
 const newsEvent = () => {
     return (
         <body>
-        <link rel="stylesheet" href="styles.css"/>
+
         <section className="main-section">
             <div>
                 <h4 className="mb-4">Discover the Best Co-ed CBSE School</h4>

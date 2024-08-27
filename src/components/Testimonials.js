@@ -3,9 +3,9 @@ import React from 'react';
 
 const Testimonials = () => {
   return (
-    <div className="testimonials py-5">
+    <div className="testimonials">
       <div className="container-fluid">
-        <h2 className="text-center mb-4">What Our Parents Say</h2>
+        <h2 className="text-center">What Our Parents Say</h2>
         <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">

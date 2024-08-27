@@ -9,7 +9,7 @@ const yamunaSection = () => {
             <div className="about-yamuna container-fluid d-flex text-black text-section col d-flex flex-column ">
                 <h2 className="pb-2">
                     DPS, Yamuna Nagar
-                    <span className="font-38">
+                    <span className="font-32">
             The Best CBSE Boarding School in North India
           </span>
                 </h2>

@@ -5,7 +5,7 @@ const whyDPS = () => {
   return (
       <body background="./Images/Group 28.png" className='image-fluid'>
       <link rel="stylesheet" href="styles.css"/>
-      <section className="why-main-section">
+      <section className="why-main-section common-section-padding">
         <div className="why-content-left">
           <img src="./Images/Group 27.png" className="why-images"/>
           <div className="text-container">
@@ -19,48 +19,48 @@ const whyDPS = () => {
               <div className="mask_image">
                 <img src="./Images/Mask group.png" className="mask"/>
               </div>
-              <small>Established in April 2007</small></div>
+              <p>Established in April 2007</p></div>
             <div className="why-event-card">
               <div className="mask_image">
                 <img src="./Images/Mask group (1).png" className="mask"/>
               </div>
-              <small>Student Teachers Ratio 1:15</small>
+              <p>Student Teachers Ratio 1:15</p>
             </div>
             <div className="why-event-card">
               <div className="mask_image">
                 <img src="./Images/Mask group (2).png" className="mask"/>
               </div>
-              <small>Ist to XIIth CBSE Curriculum Offered</small>
+              <p>Ist to XIIth CBSE Curriculum Offered</p>
             </div>
             <div className="why-event-card">
               <div className="mask_image">
                 <img src="./Images/Mask group (3).png" className="mask"/>
               </div>
-              <small>200+ In house staff</small>
+              <p>200+ In house staff</p>
             </div>
             <div className="why-event-card">
               <div className="mask_image">
                 <img src="./Images/Mask group (4).png" className="mask"/>
               </div>
-              <small>Situated in Yamuna Nagar, Haryana</small>
+              <p>Situated in Yamuna Nagar, Haryana</p>
             </div>
             <div className="why-event-card">
               <div className="mask_image">
                 <img src="./Images/Mask group (5).png" className="mask"/>
               </div>
-              <small>Spread Across an Area of 17 Acres</small>
+              <p>Spread Across an Area of 17 Acres</p>
             </div>
             <div className="why-event-card">
               <div className="mask_image">
                 <img src="./Images/Mask group (6).png" className="mask"/>
               </div>
-              <small>ATAL Tinkering Lab Robotics Lab</small>
+              <p>ATAL Tinkering Lab Robotics Lab</p>
             </div>
             <div className="why-event-card">
               <div className="mask_image">
                 <img src="./Images/Mask group (7).png" className="mask"/>
               </div>
-              <small>Co-ed Boarding School(Abode of Bliss) For classes IIIrd to XIIth</small>
+              <p>Co-ed Boarding School(Abode of Bliss) For classes IIIrd to XIIth</p>
             </div>
           </div>
         </div>

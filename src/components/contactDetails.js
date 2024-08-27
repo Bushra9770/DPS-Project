@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './contactDetails.css'
 const contactDetails = () => {
@@ -22,7 +23,7 @@ const contactDetails = () => {
                 <div className="footer-section about">
 
                     <img src="./Images/image 8.png" alt="DPS Logo" className="footer-logo"/>
-                    <p>
+                    <p className='extra-padding'>
                         Delhi Public School Yamunanagar under the aegis of Delhi Public School Society, Delhi believes
                         that quality education is about possibilities. We at DPS-YNR view education as a process which
                         takes along students, educators and parents on an inviting journey - exploring the worlds of
