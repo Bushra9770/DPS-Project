@@ -1,0 +1,162 @@
+
+.DpsCardpage-session {
+    background-color: rgba(1, 72, 40, 0.15);
+    justify-content: space-between;
+  }
+  
+  .card-body{
+    position: absolute;
+    padding: 8% 28% 0 5%;
+  }
+  .card-body h5 {
+    font-family: 'Kameron';
+font-size: 20px;
+font-weight: 700;
+
+
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    line-height: 26.63px;
+  }
+  
+  .card-container{
+    justify-content: space-between;
+  }
+  .col-20 {
+    flex: 0 0 20%;
+    width: 20%;
+  }
+ 
+
+  .card-title{
+    position: absolute;
+    background-color: rgba(1, 72, 40, 1);
+    color: rgba(255, 255, 255, 1);
+    transform: rotate(90deg);
+    width: 65%;
+    float: right;
+    left: 60%;
+    top: 21%;
+    white-space: nowrap;
+    padding: 4%;
+    text-align: center;
+  }
+
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Optional: Slightly increase the size of the card on hover */
+}
+
+/* Overlay effect on hover */
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 128, 0, 0.7); /* Green color with opacity */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.card:hover::before {
+  opacity: 1; /* Show green overlay on hover */
+}
+
+/* Card image */
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Text on the image */
+.card-text {
+  z-index: 2; /* Ensures text stays above the overlay */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: rgba(255, 255, 255, 1);
+}
+
+.card-text:hover::after {
+  opacity: 1;
+}
+.card:hover .card-text {
+  opacity: 1; /* Show text on hover */
+}
+
+.text-width{
+  font-size: 20px;
+  line-height: 20px;
+}
+/* Overlay effect on hover */
+
+
+
+  @media (max-width: 768px) {
+  
+    .card-body {
+      /* padding: 1rem; */
+    }
+
+    .card-container{
+      flex-direction: column;
+    }
+    .col-20{
+      width: fit-content;
+      align-self: center;
+      
+    }
+    .card-container{
+      gap: 20px;
+    }
+
+    .card-title{
+      left: 195px;
+    top: 82px;
+    }
+    .card-body h5{
+      font-size: 14px;
+      }
+      .text-width{
+        width: 100%;
+        font-size: 14px;
+      }
+  }
+
+  @media (max-width: 375px) {
+    .card-title {
+        left: 60%;
+        top: 68px;
+    }
+}
+
+  @media only screen and (min-width:769px) and (max-width:1400){
+    .card-text{
+      text-wrap: nowrap;
+    }
+
+    .col-20{
+      width: fit-content;
+      align-self: center;
+      
+    }
+    .card-container{
+      gap: 20px;
+    }
+.card-body h5{
+font-size: 14px;
+}
+
+  }
+  
