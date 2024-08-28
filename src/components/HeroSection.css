@@ -33,7 +33,7 @@ P{
 
 .hero-text{
     position: absolute;
-    /* width: 562px; */
+
     z-index: 1;
     justify-content: center;
     align-items: center;
@@ -43,9 +43,9 @@ P{
 .stat-number {
     display: inline-block;
     position: relative;
-    font-size: 1.8rem; /* Adjust as needed */
+    font-size: 1.8rem;
     font-weight: bold;
-    color: white; /* Text color */
+    color: white;
   }
   
   .stat-label{
@@ -62,12 +62,6 @@ P{
   
 /* mobile device css*/
 @media (max-width: 375px) {
-    /* header {
-        width: 200px;
-        left: 5%;
-        top: 4%;
-    
-  } */
   .stat-number {
     font-size: 0.8rem;
   }
@@ -106,6 +100,5 @@ p{
 
 h1{
     font-size: 38px;
-    /* top: 10%; */
 }
 }

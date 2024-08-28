@@ -45,8 +45,6 @@ const yamunaSection = () => {
                         alt="DPS Yamuna Nagar"
                         className="img-fluid rounded"
                     />
-                    {/* <div className="yellow-box position-absolute top-0 start-0 bg-warning rounded"></div> */}
-                    {/* <div className="green-box position-absolute bottom-0 end-0 bg-success rounded"></div> */}
                 </div>
             </div>
         </div>

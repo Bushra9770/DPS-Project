@@ -97,29 +97,20 @@ body {
 }
 
 .school-video-overlay h3 {
-    /* font-size: 1.5em; */
     margin-bottom: 10px;
 }
 
 .school-video-overlay p {
-    /* font-size: 1em; */
     margin-bottom: 20px;
 }
 
 .school-play-button {
     background-color: #fff;
     color: #333;
-    /* font-size: 1.5em; */
     padding: 10px 20px;
     border-radius: 50%;
     cursor: pointer;
     border: none;
-}
-
-.school-content-right h2 {
-    /* font-size: 2em;
-    margin-bottom: 20px;
-    font-family: 'Georgia', serif; */
 }
 
 .school-events-grid {
@@ -163,18 +154,6 @@ body {
     border-bottom-left-radius: 10px;
 }
 
-.school-event-card h3 {
-    /* font-size: 1.2em;
-    color: #333;
-    font-family: 'Georgia', serif; */
-}
-
-.school-event-card p {
-    /* font-size: 1em;
-    color: #666;
-    line-height: 1; */
-}
-
 .school{
     margin-top: -20px;
     padding-bottom: 10px;
@@ -186,12 +165,10 @@ body {
 }
 
 .header-title {
-    /* font-size: 1.5em; */
     color: #333;
 }
 
 .header-image {
-    /* Adjust size as needed */
     height: 37px;
     width: 150px;
 }
@@ -214,11 +191,7 @@ body {
     transform: translate(-50%, -50%);
     margin: 10px;
 }
-.school-text-container p{
-    /* font-size: 1em;
-    color: #666;
-    line-height: 1; */
-}
+
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
@@ -236,6 +209,23 @@ body {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media only screen and (min-width: 769px) and (max-width: 1400px){
+    .school-content-right {
+        max-width: 20%;
+        width: fit-content;
+        display: flex;
+       
+    }
+    .school-images-landscape{
+
+        width: 320px;
+       
+    }
+    .school-images-portrait{
+      
+        width: 170px;
+    
+
+    }
 
 }

@@ -7,19 +7,11 @@
     color: #ffffff;
     font-family: 'Kameron';
 }
-.beyond-image{
-    /* max-width: 100%;
-    padding-bottom: 20px;
-    margin-top: -8px; */
 
-}
-/* .beyond-container {
-    display: flex;
-    text-align: left;
-} */
+
 .beyond {
     flex: 1;
-    /* margin: 10px; */
+
     padding-bottom: 30px;
     background-color: #ffffff;
     color: #1a1e21;
@@ -59,35 +51,17 @@ text-align: left;
 }
 
 
-
-
-/* .beyond-section h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
-} */
-
 .beyond-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-/* .beyond {
-    text-align: center;
-    padding: 15px;
-} */
 
 .beyond-image {
-    /* border-radius: 10px; */
-    /* max-width: 100%; */
     height: auto;
 }
 
-/* .textPadding {
-    font-size: 1rem;
-    color: #555;
-} */
 
 /* Responsive Design */
 @media (max-width: 768px) {     

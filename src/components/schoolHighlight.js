@@ -6,16 +6,6 @@ const schoolHighlight = () => {
     <body className="school-main-body">
       <div className="header">
         <h2>School Highlights</h2>
-                {/* <div className="school-content-left">
-          <img src="./Images/Rectangle 84.png" className="header-image" />
-
-          <div className="school-text-container">
-            <img src="./Images/Full Gallary.png" />
-          </div>
-          <div className="school-text-container-arrow">
-            <img src="./Images/Mask group (10).png" />
-          </div>
-        </div> */}
         <div className="col-auto">
                     <button className="btn btn-success school-full-gallery-btn">Full Gallery &gt;</button>
                 </div>

@@ -7,7 +7,6 @@
 
 body {
     background-color: #f9f9f9;
-    /* padding: 20px; */
     display: flex;
     justify-content: center;
     background-size: cover;
@@ -16,7 +15,6 @@ body {
 
 .why-main-section {
     display: flex;
-    /* padding: 4% 12% 4% 12%;  */
     gap: 20px;
 }
 
@@ -31,7 +29,6 @@ position: relative;
 }
 .why-images{
     height: 89vh;
-    /* width: 400px; */
 }
 .text-container {
     position: absolute;
@@ -69,12 +66,6 @@ position: relative;
     text-align: center;
 }
 
-/* .why-video-overlay h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-} */
-
-
 .why-play-button {
     background-color: #fff;
     color: #333;
@@ -86,7 +77,6 @@ position: relative;
 }
 
 .why-content-right h2 {
-    /* font-size: 2em; */
     margin-bottom: 20px;
     font-family: 'Georgia', serif;
 }
@@ -104,7 +94,6 @@ position: relative;
     flex-direction: column;
     border-radius: 10px;
     padding: 25px;
-    /* width:why-content-left ; */
     max-width: 100%;
     text-align: center;
 }
@@ -124,14 +113,8 @@ position: relative;
     border-bottom-left-radius: 10px;
 }
 
-/* .why-event-card h3 {
-    font-size: 1.2em;
-    color: #333;
-    font-family: 'Georgia', serif;
-} */
-
 .why-event-card p {
-    /* font-size: 1em; */
+   
     color:rgba(0, 0, 0, 1);
 font-weight: 500;
     line-height: 1;
@@ -139,8 +122,6 @@ font-weight: 500;
 }
 .mask_image{
     text-align: center;
-    /* height: 50px;
-    width: 50px; */
     margin: auto;
 }
 .mask{
@@ -168,11 +149,7 @@ font-weight: 500;
 }
 
 @media screen and (max-width: 365px){
-    .why-events-grid {
-        /* grid-template-columns: 0.5fr; */
-    }
     .why-images {
-        /* height: auto; */
         width: 25vh;
     }
 

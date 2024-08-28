@@ -1,7 +1,6 @@
 // src/App.js
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import HeroSection from './components/HeroSection';
 import WhyDPS from './components/whyDPS';
@@ -21,7 +20,7 @@ function App() {
   return (
     <div className="App">
         <HeroSection className="container-fluid"/>
-         <WelcomeDPS className="container-fluid"/>
+        <WelcomeDPS className="container-fluid"/>
         <WhyDPS className="container-fluid"/>
         <YamunaNagarSection className="container-fluid"/>
         <DpsCardPage className="container-fluid"/>

@@ -16,12 +16,11 @@ const newsEvent = () => {
                     <div className="event-card">
                         <img src="./Images/Rectangle 41.png" alt="Janmashtami Celebration"/>
                         <div className="last-card">
-                            <h3><strong>Janmashtami Celebration</strong></h3>
+                            <h3>Janmashtami Celebration</h3>
                             <small>
                                 <small>
                                     <small className="font-size">The school organized various Online Activities on
-                                        Janmashtami such as Matki and Flute Decoration, Bal Krishna Painting, Krishna
-                                        Bhajan, Speech on Krishna Leela, and many more.</small>
+                                        Janmashtami such as Matki and Flute Decoration, Bal Krishna Painting, Krishna.</small>
                                 </small>
                             </small>
                         </div>

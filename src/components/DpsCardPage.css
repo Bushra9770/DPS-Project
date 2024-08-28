@@ -104,12 +104,7 @@ font-weight: 700;
 
 
   @media (max-width: 768px) {
-  
-    .card-body {
-      /* padding: 1rem; */
-    }
-
-    .card-container{
+      .card-container{
       flex-direction: column;
     }
     .col-20{
@@ -142,10 +137,6 @@ font-weight: 700;
 }
 
   @media only screen and (min-width:769px) and (max-width:1400){
-    .card-text{
-      text-wrap: nowrap;
-    }
-
     .col-20{
       width: fit-content;
       align-self: center;
@@ -159,4 +150,9 @@ font-size: 14px;
 }
 
   }
-  
+  @media screen and (max-width:320){
+    .text-width{
+      
+      font-size: 9px;
+    }
+  }
